@@ -1,0 +1,36 @@
+html{
+     background-color: #4d4d4d;
+}
+
+.heading,
+.description {
+    text-align: center;
+    color: darkgray;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    row-gap: 10px;
+    margin: auto;
+}
+
+.btnSubmit {
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+#textbox{
+     font-size: 20px;
+     padding: 5px;
+     background-color: #4d4d4d;
+     border: 3px rgb(112, 115, 112) solid;
+     color: bisque;
+}
